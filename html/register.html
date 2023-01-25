@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- main Css -->
+   <link rel="stylesheet" href="../css/style.css">
+    <title>Register page</title>
+</head>
+<body>
+    <div id="admin-box">
+        <!-- page heading -->
+    <h1>Register page</h1>
+    <!-- Form -->
+    <form>
+        <input type="text" name="F-name" placeholder="name" />
+        <input type="email" name="mail" placeholder="email" />
+        <!--Radio Start-->
+      <label>What is your Gender?</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">other</label>
+        
+      <!--Radio End-->
+    
+      <!--select start-->
+      <label for="occu">Are you a ?</label>
+    <select name="occu" id="occupation">
+    <option value="student">Student</option>
+    <option value="">Teacher</option>
+    <option value="">Nothing</option>
+    </select>
+        <!-- select start -->
+        <input type="password" name="password" placeholder="password" />
+        <input 
+        type="password" 
+        name="c-password" 
+        placeholder="confirm password"/>
+         <input type="submit" value="Register"/>
+    </form>    
+        <p class="pg">
+            Already have an account please
+             <a href="../New Text Document.html"target="_blank">login here</a>
+            </p>
+    </div>
+</body>
+</html>
